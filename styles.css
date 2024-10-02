@@ -231,7 +231,7 @@ nav a {
     border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.3s;
-    font-weight: bold; /* Grassetto per i link nel menu */
+    font-weight: bold !important; /* Grassetto per i link nel menu */
 }
 
 .product p {
