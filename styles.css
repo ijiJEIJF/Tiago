@@ -208,6 +208,60 @@ footer {
     display: block;
     animation: bounce 2s infinite; /* Effetto di rimbalzo continuo */
 }
+/* Per il grassetto su tutto il testo */
+body {
+    font-family: 'Oswald', sans-serif; /* Updated font */
+    background-color: #1b1c18; /* Light beige background */
+    color: #ffffff; /* Dark text for better readability */
+    margin: 0;
+    padding: 20px;
+    font-weight: 300; /* Peso leggero per il testo generale */
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold; /* Grassetto per i titoli */
+}
+
+nav a {
+    background-color: #c7f089; /* Light brown for buttons */
+    color: black; /* Black text */
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-weight: bold; /* Grassetto per i link nel menu */
+}
+
+.product p {
+    margin: 5px 0;
+    max-height: 40px;
+    overflow: hidden;
+    font-weight: bold; /* Grassetto per il testo delle descrizioni prodotto */
+}
+
+.button {
+    background-color: #c7f089; /* Consistent light brown for buttons */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+    font-weight: bold; /* Grassetto per i pulsanti */
+}
+
+.footer-iconTop a {
+    color: black; /* Colore dell'icona */
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold; /* Grassetto per la freccia */
+}
+
 
 
 
